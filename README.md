@@ -2,6 +2,8 @@
 
 A Swift formatter to support the duration part of the ISO8601 standard.
 
+A formatter similar using an API similar to Swift DateFormatter to convert [ISO8601 Duration](https://en.wikipedia.org/wiki/ISO_8601#Durations) strings into their `TimeInterval` equivalent in seconds, and back.
+
 ## Installation
 
 After installing, the package is available using the following import:
