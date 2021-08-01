@@ -25,7 +25,7 @@ To integrate ISO8601DurationFormatter into your Xcode project using SPM, simply 
 To integrate ISO8601DurationFormatter into your Xcode project using CocoaPods, simply add the following line to your Podfile:
 
 ```
-pod 'ISO8601DurationFormatter', ~> '0.0.1'
+pod 'ISO8601DurationFormatter', '~> 0.0.1'
 ```
 
 ## Usage
