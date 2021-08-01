@@ -4,6 +4,12 @@ A Swift formatter to support the duration part of the ISO8601 standard.
 
 ## Installation
 
+After installing, the package is available using the following import:
+
+```
+import ISO8601DurationFormatter
+```
+
 ### Swift Package Manager
 
 To integrate ISO8601DurationFormatter into your Xcode project using SPM, simply add the following line to your Package.swift:

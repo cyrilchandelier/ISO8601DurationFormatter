@@ -1,6 +1,11 @@
 import Foundation
 
 public class ISO8601DurationFormatter {
+    /// Preferred initializer for ISO8601DurationFormatter
+    public init() {
+        // Empty initializer is let public for it to be used across modules
+    }
+
     /// Converts an ISO8601 duration into a duration in seconds
     /// - Parameter durationString: a string representing formatted in the ISO8601 format
     /// - Throws: when the Regex can not be generated or if the input format is invalid
