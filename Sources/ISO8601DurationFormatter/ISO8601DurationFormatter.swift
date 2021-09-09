@@ -40,7 +40,7 @@ public class ISO8601DurationFormatter {
     /// - Throws: when input duration is negative
     /// - Returns: an ISO8601 duration string
     public func string(from duration: TimeInterval) throws -> String {
-        guard duration > 0 else {
+        guard duration >= 0 else {
             throw Exception.unsupportedNegativeDuration
         }
 
