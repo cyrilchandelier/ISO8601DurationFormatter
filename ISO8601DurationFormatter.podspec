@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "ISO8601DurationFormatter"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A Swift formatter to support the duration part of the ISO8601 standard."
   spec.description  = <<-DESC
   A formatter similar using an API similar to Swift DateFormatter to convert ISO8601 Duration strings into their `TimeInterval` equivalent in seconds, and back.

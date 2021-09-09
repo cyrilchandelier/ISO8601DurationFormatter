@@ -17,7 +17,7 @@ import ISO8601DurationFormatter
 To integrate ISO8601DurationFormatter into your Xcode project using SPM, simply add the following line to your Package.swift:
 
 ```
-.package(url: "https://github.com/cyrilchandelier/ISO8601DurationFormatter", .upToNextMajor(from: "0.0.1"))
+.package(url: "https://github.com/cyrilchandelier/ISO8601DurationFormatter", .upToNextMajor(from: "0.0.2"))
 ```
 
 ### CocoaPods
@@ -25,7 +25,7 @@ To integrate ISO8601DurationFormatter into your Xcode project using SPM, simply 
 To integrate ISO8601DurationFormatter into your Xcode project using CocoaPods, simply add the following line to your Podfile:
 
 ```
-pod 'ISO8601DurationFormatter', '~> 0.0.1'
+pod 'ISO8601DurationFormatter', '~> 0.0.2'
 ```
 
 ## Usage
